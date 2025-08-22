@@ -18,6 +18,5 @@ jobs:
     - name: Install
       run: |
         brew update
-        brew tap bbc/audiowaveform
         brew install --verbose audiowaveform
         audiowaveform --version
